@@ -21,7 +21,7 @@ This is the governing equation for the Monte Carlo simulations.
 Parameters can be adjusted to take account for differences in underlying volatility, risk-free rate, TTE, S0, K, and of course the desired number of path simulations. 
 
 <p align="center">
-  <img scr="https://github.com/user-attachments/assets/d7f0dce4-81c2-480c-b55a-5fbd03fcaae1" alt="Asian Option Price Path">
+  <img src="images/AsianOption.png" alt="Asian Option Price Path">
   <br>
   <em>Figure 1: Individual simulated price path of an Asian option using discrete and continuous sampling</em>
 </p>
@@ -32,7 +32,7 @@ Option prices are calculated to account for differences in contract structure, e
 Hypothetical price surfaces are generated to visualize the change in value of a given option with respect to changes in volatility and time to expiry.
 
 <p align="center">
-  <img scr="https://github.com/user-attachments/assets/cbfd3421-138a-4f2a-b0c4-93e87dfc5e40" alt="Asian Option Price Path">
+  <img src="images/AsianOptionPriceSurface.png" alt="Asian Option Price Path">
   <br>
   <em>Figure 2: Monte Carlo simulated price surface of Asian call and put</em>
 </p>
